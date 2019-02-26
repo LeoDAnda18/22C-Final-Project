@@ -6,56 +6,6 @@
 #include "Pokemon.h"
 #include "LinkedList.h"
 
-/*
-Hashtable
-This is the last status report. I'd say im 99% (because I tested it as much as I could, but there could still be errors).
-Comments are important for understanding what im doing. Ill document everything as best as possible so you can easily follow along.
-#Include LinkedList.h is my linkedlist.h file.
-There is no writing to file mechanisms in this. If there are, then it would be in HashdisplayAll. I'll leave that to Cliff to do.
-Main Functions:
-Private:
-hash - this function takes in a pokemon pointer, and follows a simple algorithm to return an index.
-collisionResolution - this function performs linear collision resolution. Basically, if the index in the
-array is full, it progresses through the array linearly until it finds an open slot. If no slots, returns -1.
-collisionSearch - this function performs linear search through the hash array if the search function does not
-find the parameter in the hashtable. If the linear search fails, index is -1.
-collisionLinkedList - This is the linked list collision resolution mechanism. If the add function hits a collision, then
-the data is stored into a SELF-ADJUSTING LINKED LIST (option 1 of the CIS22c options).
-collisionLLSearch - If data is not in the hash array, then this function searches through the linkedlist to find
-if it is stored in that. If not, it returns a negative value.
-selfAdjustSearch - this function follows the SELF-ADJUSTING LINKED LIST criteria where if you search a piece of data, it gets moved
-to the front without changing the other positions. (basically remove where it located, then add it to position 0).
-Public:
-Constructor - sets arrayLength, then dynamically creates an array of that length.
-Destructor - deletes the dynamically created array. The LinkedList deletes on its own because it isn't dynamically created.
-hashDisplay - If you call this function (probably wont because requirement is list all), it displays the content of the
-item in the HASH ARRAY index you specify.
-LinkedListDisplay -If you call this function (probably wont because requirement is list all), it displays the content of the
-item in the LINKEDLIST index you specify
-hashDisplayAll - this function loops through hashDisplay and LinkedListDisplay to display EVERYTHING stored.
-add - This function takes in a pokemon pointer, goes through the hash function to get an index, and then stores it into the HASH ARRAY.
-IMPORTANT COMMENT: THIS FUNCTION HAS 2 FORMS.
-FORM 1: IF YOU CHOOSE TO DO LINEAR COLLISION RESOLUTION, THEN IT CALLS COLLISIONRESOLUTION AND STORES IT INTO AN EMPTY SLOT IN HASH ARRAY.
-FORM 2: IF YOU CHOOSE TO DO LINKEDLIST RESOLUTION, THEN IT CALLS COLLISIONLINKEDLIST AND STORES IT IN THE
-FIRST SLOT OF THE LINKEDLIST. (This is to follow the self-adjusting linkedlist requirement.)
-removeByData - This function takes in a pokemon pointer, goes through the hash function to get an index, and then compares the data
-stored in that index to the data you specified. If same, then remove. If not, then depending on which collision resolution you are using,
-you either call collisionSearch and then remove the data from the HASHARRAY, or you call collisionLLSearch and remove it from the LinkedList.
-removeByIndex - this function is likely never going to get called, but if you want to remove an item from the hash array by index,
-this does just that.
-Search - This function takes in a pokemon pointer, calls the hash function, and compares the data in that index of the HASH ARRAY
-to that of the parameter. If no match, then depending on what you are using, you either call collisionSearch to linear search through the
-HASH ARRAY for it, or you call collisionLLSearch, which looks through the linked list for it.
-rehash - This function modifies the size of the hashArray if 75% of the array is filled up. This works with or without linkedlist as all
-it does is take the original array and duplicates it, set the original array all to nullptrs, delete the original array, then dynamically
-create an array of (size x 2) + 1, and then copy everything from the duplicate back to the resized array. yay for rehash.
-Getters and Setters: Self explanatory.
-Well. that everything for the functions! There not much I can say anymore.
-If there is a problem with one of the functions, notify me so I can look through my code and try to identify the error.
-Well, that everything. Good luck on integrating everything together.
-*/
-
-
 class HashTable
 {
 private:
