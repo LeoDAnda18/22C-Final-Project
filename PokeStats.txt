@@ -1,26 +1,26 @@
 13|Weedle|Bug, Poison|19|55
-1|Bulbasaur|Grass, Poison|31|18
+25|Pikachu|Electric|30|30
+10|Caterpie|Bug|19|65
+23|Ekans|Poison|28|83
 2|Ivysaur|Grass, Poison|40|50
-3|Venusaur|Grass, Poison|52|50
-4|Charmander|Fire|30|90
+16|Pidgey|Normal, Flying|25|71
 5|Charmeleon|Fire|40|50
-6|Charizard|Fire, Flying|53|40
+24|Arbok|Poison|43|48
 7|Squirtle|Water|31|44
 8|Wartortle|Water|40|35
+22|Fearow|Normal, Flying|44|72
 9|Blastoise|Water|53|20
-10|Caterpie|Bug|19|65
+3|Venusaur|Grass, Poison|52|50
+4|Charmander|Fire|30|90
 11|Metapod|Bug|20|75
-12|Butterfree|Bug, Flying|38|45
+6|Charizard|Fire, Flying|53|40
 14|Kakuna|Bug, Poison|20|75
 15|Beedrill|Bug, Poison|38|10
-16|Pidgey|Normal, Flying|25|71
+12|Butterfree|Bug, Flying|38|45
 17|Pidgeotto|Normal, Flying|34|79
 18|Pidgeot|Normal, Flying|46|39
 19|Rattata|Normal|25|63
 20|Raticate|Norma|41|63
+1|Bulbasaur|Grass, Poison|31|18
 21|Spearow|Normal, Flying|26|42
-22|Fearow|Normal, Flying|44|72
-23|Ekans|Poison||28|83
-24|Arbok|Poison|43|48
-25|Pikachu|Electric|30|30
-26|Magikarp|Water|20|50
+129|Magikarp|Water|20|50

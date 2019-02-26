@@ -6,8 +6,8 @@ Queue
 BST
 */
 
-#ifndef LINKEDLIST_H
-#define LINKEDLIST_H
+#ifndef LEOLINKEDLIST_H
+#define LEOLINKEDLIST_H
 
 //#include "LeoNode.h"
 #include <fstream>

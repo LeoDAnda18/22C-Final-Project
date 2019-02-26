@@ -1,2 +1,1 @@
-# 22C-Final-Project
-PokeDex Simulator
+# 22c-group

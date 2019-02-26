@@ -3,7 +3,10 @@
 #include<string>
 #include<iostream>
 
-const int ARRAY_SIZE = 26;
+const int ARRAY_SIZE = 36;
+int bstEffiencyCounter;
+int hashedTableEffiencyCounter;
+int linkedListEffiencyCounter;
 
 
 int getMenuInput(int size)

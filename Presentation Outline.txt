@@ -1,0 +1,25 @@
+Group leader will introduce the project and its overall goal of emulating pokedex functions
+
+The memembers that worked on the presentation file will talk about what each page has
+
+Once the presentation file is finished, the program will be launched and the menu functions will be demo'd one after another
+
+First will be the add data function, where a new pokemon will be added to the database.  
+Also this will be where collision resolution will be demonstrated.
+
+Delete function will be demonstrated next.
+
+Search will be demo'd
+
+List data in hashed table will be display and the collision resolution will be reinforced here.
+
+List data in the bst using the in-order traverse will be demo'd
+
+Print indented tree will be displayed
+
+Display effiency numbers
+
+And last will be the scanner option.  
+If the program hangs during the scanner demo, try to play it off as part of the program
+
+Field questions from the spectators will be the final part of the presentation
